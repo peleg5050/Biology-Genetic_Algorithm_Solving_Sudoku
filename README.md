@@ -12,12 +12,12 @@ The application has an accessible and user-friendly interface so even a person w
 In order to select a game board you need to access the config file and there you need to change the value of the gridller variable which contains the path of the board file. By default, we run an arbitrary game board (of course, you can run a game board of any size you want depending on the code we wrote).
 
 
-The different screens:
+The different screens
 -
 The main screen has a graphic display that sequentially runs all types of genetic algorithms we built. In the center of the screen there is a game board of N X N size, and the board is filled with numbers from 1 to N .In the given cells there are the same fixed digits throughout all the attempts to solve the board (since this is a hard constraint).
 The screen shows the best solution among the 300 solutions that the algorithm runs, and an information bar in the left part of the screen, which contains the number of the current iteration, the score of the best solution, the score received by the worst solution and the average score obtained. When the run ends, 2 graphs are displayed that show the best solution score and the average score obtained throughout the iterations for all three different algorithms.
 This is what the board looks like when running the normal genetic algorithm:
--
+
 ![UML](https://imgur.com/aNS9oJA.png)
 
 
@@ -31,7 +31,7 @@ To run, enter to the folder that contains the main.exe executable file and the t
 דרך שנייה : ע"י ביצוע ההרצה מהטרמינל של סביבת הפיתוח pycharm ע"י הרצת הפקודה : py main.py filename.txt  או לחילופין python main.py filename.txt
 
 
-## Future improvements:
+## Future improvements
 
 As we continue to work on this app, we encourage anyone that wants to help out to do so!
 Just open the project in Visual Studio Code and add your own touches!
