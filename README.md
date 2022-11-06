@@ -22,7 +22,6 @@ This is what the board looks like when running the normal genetic algorithm:
 
 
 ### Running
-To run, double-click the covidModel.exe file that appears in the zip folder we uploaded.
 To run, enter to the folder that contains the main.exe executable file and the text file (which describes the state of the board), then open cmd for this path, and in the opened terminal write: main.exe filename.txt
 
 קובץ ההרצה (main.exe) נמצא בתוך התיקייה dist, על מנת להריץ את התוכנית שבנינו ישנן שתי דרכים עיקריות: 
